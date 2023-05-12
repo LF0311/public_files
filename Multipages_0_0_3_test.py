@@ -1081,12 +1081,12 @@ def app1():
 
             }
         )
-        st.markdown(trans_data)
+        # st.markdown(trans_data)
         json_data = json.dumps(trans_data)
         st.markdown(json_data)
         # 发送POST请求
-#         url = 'http://51.51.51.15:18000/resourceManagerWLW/sendTargetInfo'
-#         response = requests.post(url, json=json_data)
+        url = 'http://51.51.51.15:18000/resourceManagerWLW/sendTargetInfo'
+        response = requests.post(url, json=json_data)
 
         # 打印响应结果
         # print(response.text)
