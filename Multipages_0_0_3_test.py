@@ -1082,7 +1082,7 @@ def app1():
             }
         )
         # st.markdown(trans_data)
-        json_data = json.dumps(trans_data)
+        json_data = json.dumps(trans_data, ensure_ascii=False)
         # st.markdown(json_data)
         # 发送POST请求
         url = 'http://51.51.51.15:18000/resourceManagerWLW/sendTargetInfo'
