@@ -1,17 +1,7 @@
-import folium
 import streamlit as st
-from streamlit_folium import st_folium
-import os
 import time
-import json
 import requests
-import subprocess
-import streamlit.components.v1 as components
-import numpy as np
-import re
 import datetime
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import pandas as pd
 import struct
 import socket
