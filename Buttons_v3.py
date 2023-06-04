@@ -6,9 +6,7 @@ import time
 import json
 import requests
 import subprocess
-#from lib import tickingClock
 import streamlit.components.v1 as components
-#from time import time, localtime, sleep
 import numpy as np
 import re
 import datetime
